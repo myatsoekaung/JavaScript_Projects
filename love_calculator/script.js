@@ -11,7 +11,7 @@ function calculateLove(){
 
         if(lovePercentage < 30){
             result.innerHTML += "<br> Not a great match! Keep Looking...";
-        }else if(lovePercentag >= 30 && lovePercentage < 70){
+        }else if(lovePercentage >= 30 && lovePercentage < 70){
             result.innerHTML += "<br> There is potential. Give it a try!";
         }else{
             result.innerHTML += "<br> Great Match! Love is in the air!";
