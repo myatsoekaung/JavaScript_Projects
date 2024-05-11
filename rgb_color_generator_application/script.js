@@ -36,6 +36,7 @@ function copyRGBValue() {
         alert("Copying to clipboard is not supported on your browser.");
         return;
       }
+    
     const redValue = redSlider.value;
     const greenValue = greenSlider.value;
     const blueValue = blueSlider.value;
